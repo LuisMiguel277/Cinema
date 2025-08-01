@@ -137,7 +137,7 @@
     }
     .actor{
         width: 80%;
-        height: 440px;
+        height: 60%;
         margin: 5px;
         transition: margin 0.8s;
     }

@@ -64,7 +64,6 @@
         height: 75%;
     }
     .tempor{
-        background-color: aqua;
         width: 80%;
     }
     article#episodios{
@@ -78,16 +77,14 @@
         display: flex;
         flex-direction: column;
         height: 850px;
-        max-width: 470px;
-        width: 465px;
+        width: 95%;
         padding: 5px;
         margin: 0px;
     }
     .ep{
         display: flex;
         align-items: center;
-        max-width: 430px;
-        min-width: 420px;
+        width: 90%;
         height: 470px;
         margin: 8px;
         transition: none;
@@ -109,15 +106,14 @@
         font-size: 1.2em;
     }
     .h3{
-        max-width: 450px;
-        min-width: 440px;
+        width: 85%;
         margin: 15px;
     }
     h4#eph4{
         margin: 5px;
         padding: 5px;
         font-size: 1.3em;
-        width: 350px;
+        width: 80%;
     }
     .mais{
         display: none;
@@ -135,13 +131,12 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        max-width: 455px;
-        min-width: 450px;
+        width: 85%;
         height: 300vh;
         margin: 10px;
     }
     .actor{
-        width: 350px;
+        width: 80%;
         height: 440px;
         margin: 5px;
         transition: margin 0.8s;

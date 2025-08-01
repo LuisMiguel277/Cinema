@@ -60,15 +60,10 @@
     .tempo{
         display: flex;
         flex-direction: column;
-        max-width: 93vw;
-        min-width: 88vw;
+        max-width: 95vw;
+        min-width: 90vw;
         max-height: 40vh;
         min-height: 35vh;
-    }
-    .tempor{
-        width: 90vw;
-        max-width: 360px;
-        min-width: 280px;
     }
     article#episodios{
         display: flex;

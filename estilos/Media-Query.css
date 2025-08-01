@@ -1,0 +1,159 @@
+@charset "UTF-8";
+@media screen and (max-width: 768px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    /*===============CABEÇALHO===============*/
+
+    header{
+        height: 15vh;
+        padding: 20px;
+        justify-items: center;
+        align-items: center;
+    
+        }
+    header>h1{
+        width: 90%;
+        padding: 13px;
+        margin-top: -3px;
+    }
+    div#menui{
+        display: none;
+    }
+    div#serie>p{
+        text-align: left;
+    }
+    i#text:hover{
+        cursor: default;
+        text-decoration: none;
+    }
+    /*===============MANCHETE===============*/
+
+    article#manchete{
+        max-height: 130%;
+        min-height: 110%;
+    }
+    div#serie{
+        max-height: 140vh;
+        min-height: 120vh ;
+    }
+
+    div#serie>picture>img{
+        width: 380px;
+        padding: 10px;
+    }
+    div#criacao{
+        display: none;
+    }
+    div#categoria{
+        display: none;
+    }
+
+    /*===============CABEÇALHO===============*/
+
+    article#temporada{
+        max-height: 60vh;
+        min-height: 50vh;
+    }
+    .tempo{
+        display: flex;
+        flex-direction: column;
+        max-width: 93vw;
+        min-width: 88vw;
+        max-height: 40vh;
+        min-height: 35vh;
+    }
+    .tempor{
+        width: 90vw;
+        max-width: 360px;
+        min-width: 280px;
+    }
+    article#episodios{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 140vh;
+      
+    }
+    .episo{
+        display: flex;
+        flex-direction: column;
+        height: 850px;
+        max-width: 470px;
+        width: 465px;
+        padding: 5px;
+        margin: 0px;
+    }
+    .ep{
+        display: flex;
+        align-items: center;
+        max-width: 430px;
+        min-width: 420px;
+        height: 470px;
+        margin: 8px;
+        transition: none;
+    }
+    .ep>picture>img{
+        width: 280px;
+    }
+    .ep:hover{
+        background-color: #090909;
+        color: gold;
+        margin: 8px;
+    }
+    .ep:hover>h4#eph4{
+        border-left: 7px solid gold;
+        background-color: black;
+        color: gold;
+    }
+    .ep>p{
+        font-size: 1.2em;
+    }
+    .h3{
+        max-width: 450px;
+        min-width: 440px;
+        margin: 15px;
+    }
+    h4#eph4{
+        margin: 5px;
+        padding: 5px;
+        font-size: 1.3em;
+        width: 350px;
+    }
+    .mais{
+        display: none;
+    }
+    /*===============ATUAÇÂO===============*/
+
+    article#atuacao{
+        max-height: 280vh;
+        min-height: 270vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .atores{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 455px;
+        min-width: 450px;
+        height: 300vh;
+        margin: 10px;
+    }
+    .actor{
+        width: 350px;
+        height: 440px;
+        margin: 5px;
+        transition: margin 0.8s;
+    }
+    .actor>picture>img{
+        width: 260px;
+    }
+    .actor:hover{
+        margin: 15px 0px 5px 15px;
+    }
+}
+   

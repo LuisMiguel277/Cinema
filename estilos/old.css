@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+/*====================Cabeça==================== */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: gold;
+    height: 12vh;
+    padding: 25px;
+}
+header>h1{
+    text-align: left;
+    margin-top: -10px;
+}
+
+/*====================Menu==================== */
+
+menu{
+    display: none;
+}
+div#menui{
+    float: right;
+    width: 90px;
+    text-align: right;
+    margin-top: 10px;
+}
+menu#itens {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    background-color: aqua;
+    display: none;
+    z-index: 1000;
+}
+ul{
+    list-style-type: none;
+}
+.link{
+    display: block;
+    padding: 12px;
+    width: 200px;
+    height: 55px;
+    font-size: 1.4em;
+    font-family: "Intel One Mono", monospace;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: gold;
+    transition: font-size 0.8s, padding-right 0.8s;
+}
+.link:hover{
+    color: darkorange;
+    text-shadow: 4px 2px 2px orangered;
+    font-size: 1.5em;
+    padding-right: 50px;
+
+}
+span#burger{
+    text-align: center;
+    cursor: pointer;
+    font-size: 35px;
+    width: 35px;
+    height: 35px;
+    margin-top: -5px;
+    margin-right: 10px;
+    transition: height 0.7s, width 0.5s, font-size 1s;
+}
+span#burger:hover{
+    margin-top: -7px;
+    height: 38px;
+    width: 38px;
+    font-size: 38px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+
+/*====================Manchete==================== */
+
+article#manchete{
+    background-color: rgb(199, 199, 199);
+    color: white;
+    height: 115vh;
+    width: 100%;
+}
+div#serie{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    background-color: #1f1f1f;
+    width: 90%;
+    height: 115vh;
+    margin: auto;
+}
+div#serie>h2{
+    text-align: left;
+    font-size: 2.5em;
+    padding: 20px 0px 0px 20px;
+}
+div#serie>p{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+div#serie>picture{
+    display: flex;
+    justify-content: center;
+}
+div#serie>picture>img{
+    width: 600px;
+}
+
+div#criacao{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+div#criacao>h3{
+    padding-left: 10px;
+}
+div#criacao>ul>li{
+    display: inline;
+    margin-top: 20px;
+}
+div#criacao>ul>li>a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+div#categoria{
+    height: 25vh;
+    padding: 10px;
+}
+div#categoria>h3{
+    margin: 15px;   
+}
+div#categoria>ul{
+    list-style-type: none;
+    list-style-position: inside;
+    text-align: center;
+}
+div#categoria>ul>li{
+    display: inline;
+    padding: 20px;
+
+}
+div#categoria>ul>li>a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+/*====================Temporada==================== */
+
+article#temporada{
+    background-color: blue;
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tempo{
+    background-color: aqua;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 25vh;
+}
+.tempor{
+    width: 450px;
+    background-color: white;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.tempor>h4{
+    font-size: 2em;
+}
+
+/*====================Episodios==================== */
+
+article#episodios{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(23, 169, 169);
+    height: 110vh;
+    width: 100%;
+    text-align: center;
+}
+
+.episo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: rgb(12, 57, 57);
+}
+.ep{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    background-color: blueviolet;
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+}
+.ep>h4{
+    padding-top: 15px;
+}
+.ep> h4,p{
+    margin-left: 35px;
+    font-size: 1.3em;
+}
+.ep>picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ep>picture>img{
+    width: 400px;
+}
+.mais{
+    margin: auto;
+    background-color: rgb(255, 0, 102);
+    font-size: 2em;
+    width: 500px;
+    padding: 15px;
+    text-align: center;
+}
+.h3{
+    width: 700px;
+    background-color: rgb(255, 0, 102);
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+/*====================Atuacao==================== */
+
+article#atuacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: darkgreen;
+    color: wheat;
+    height: 200vh;
+}
+article#atuacao>.mais{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.atores{
+    background-color: darkorange;
+    width: 80vw;
+    height: 170vh;
+    margin-top: 20px;
+    color: aqua;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.actor{
+    width: 400px;
+    height: 500px;
+    background-color: darkcyan;
+    margin: 15px;
+    margin: auto;
+}
+
+/*====================Fontes==================== */
+
+h1{
+    font-family: 'TikTok Sans';
+    color: darkorange;
+    text-shadow: 4px 2px 2px orangered;
+    font-size: 2.5em;
+}
+h2{
+    font-family: "Noto Sans", monospace;
+}
+h3{
+    font-family: "Noto Sans", monospace;
+    font-size: 1.8em;
+
+}
+p{
+      font-family: "Nunito Sans", sans-serif;
+      font-size: 1.5em;
+
+}
+a{
+    font-family: "Intel One Mono", monospace;
+
+}
+/*      font-family: "Intel One Mono", monospace;
+  font-family: 'TikTok Sans';
+      font-family: "Noto Sans", sans-serif;
+
+

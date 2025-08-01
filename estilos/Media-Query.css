@@ -65,6 +65,9 @@
         max-height: 40vh;
         min-height: 35vh;
     }
+    .tempor{
+        width: 360px;
+    }
     article#episodios{
         display: flex;
         justify-content: center;

@@ -201,9 +201,7 @@ article#temporada{
     height: 25vh;
 }
 .tempor{
-    width: 40vw;
-    max-width: 380px;
-    min-width: 370px;
+    width: 30vw;
     border: 5px solid gold;
     border-radius: 5px;
     box-shadow: inset  10px 10px 20px rgba(128, 128, 128, 0.279);

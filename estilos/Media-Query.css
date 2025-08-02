@@ -158,19 +158,17 @@
     /*===============MANCHETE===============*/
 
     article#manchete{
-        height: 180vh;
+        height: 280vh;
     }
     div#serie{
         display: flex;
         justify-content: center;
         align-items: normal;
         width: 95%;
-        height: 130vh;
+        height: 128vh;
     }
     div#serie>p{
         font-size: 1.3em;
-    }
-    div#criacao{
     }
     div#criacao>h3{
         font-size: 1.8em;
@@ -178,12 +176,22 @@
 
     }
     div#categoria{
-        height: 14%;
-        padding: 0px;
+        display: flex;
+        height: 10%;
+        padding: 10px;
     }
     div#categoria>h3{
         font-size: 1.8em;
         margin-left: 5px;
+    }
+    div#categoria>ul>li>.ac{
+        margin-left: 0px;
+        padding: 4px;
+    }
+     div#categoria>ul>li>.ac:hover{
+        margin-left: -5px;
+        padding: 10px;
+
     }
     .ac{
         font-size: 20px;
@@ -215,7 +223,7 @@
         flex-direction: column;
     }
     .ep{
-        width: 800px;
+        width: 90%;
     }
     .ep:hover{
         box-shadow: -1px 3px 20px gold;

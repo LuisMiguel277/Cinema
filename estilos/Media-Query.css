@@ -1,4 +1,6 @@
 @charset "UTF-8";
+
+/*=========================ADAPTAÇÂO PARA CELULAR=========================*/
 @media screen and (max-width: 768px){
     *{
         margin: 0px;
@@ -148,4 +150,110 @@
         margin: 15px 0px 5px 15px;
     }
 }
-   
+
+/*=========================ADAPTAÇÂO PARA TABLET=========================*/
+
+@media screen and (min-width: 768px) and (max-width:  992px) {
+
+    /*===============MANCHETE===============*/
+
+    article#manchete{
+        height: 180vh;
+    }
+    div#serie{
+        display: flex;
+        justify-content: center;
+        align-items: normal;
+        width: 95%;
+        height: 130vh;
+    }
+    div#serie>p{
+        font-size: 1.3em;
+    }
+    div#criacao{
+    }
+    div#criacao>h3{
+        font-size: 1.8em;
+        padding-left: 15px;
+
+    }
+    div#categoria{
+        height: 14%;
+        padding: 0px;
+    }
+    div#categoria>h3{
+        font-size: 1.8em;
+        margin-left: 5px;
+    }
+    .ac{
+        font-size: 20px;
+        margin-left: 5px;
+    }
+    /*===============ATUAÇÂO===============*/
+
+    .tempo{
+        width: 80%;
+    }
+    .tempor{
+        width: 60%;
+    }
+
+    /*====================Episodios==================== */  
+
+    article#episodios{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 140%;
+
+    }
+    .episo{
+        margin: 10px;
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .ep{
+        width: 800px;
+    }
+    .ep:hover{
+        box-shadow: -1px 3px 20px gold;
+        margin-top: 40px;
+    }
+    .ep>picture>img{
+        width: 60%;
+    }
+    .ep>p{
+        font-size: 1.6em;
+    }
+    h4#eph4{
+        width: 80%;
+
+    }
+    .mais{
+        margin: 10px;
+    }
+
+    /*====================Atuacao==================== */
+    article#atuacao{
+        height: 90%;
+    }
+    .atores{
+        width: 95%;
+    }
+    .actor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        height: 90%;
+    }
+    .acct{
+        width: 100%;
+    }
+
+
+    
+}

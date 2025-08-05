@@ -43,13 +43,11 @@
     }
 
     div#serie>picture>img{
-        width: 380px;
+        width: 500px;
+        min-width: 380px;
         padding: 10px;
     }
-    div#criacao{
-        display: none;
-    }
-    div#categoria{
+    .Produtores{
         display: none;
     }
 
@@ -72,13 +70,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 140vh;
+        height: 170vh;
       
     }
     .episo{
         display: flex;
         flex-direction: column;
-        height: 850px;
+        max-height: 150vh;
+        height: 150vh;
         width: 95%;
         padding: 5px;
         margin: 0px;
@@ -87,12 +86,13 @@
         display: flex;
         align-items: center;
         width: 90%;
-        height: 470px;
+        height: 60%;
         margin: 8px;
         transition: none;
     }
     .ep>picture>img{
-        width: 280px;
+        width: 80%;
+        max-width: 75%;
     }
     .ep:hover{
         background-color: #090909;
@@ -121,10 +121,9 @@
         display: none;
     }
     /*===============ATUAÇÂO===============*/
-
     article#atuacao{
-        max-height: 280vh;
-        min-height: 270vh;
+        max-height: 300vh;
+        min-height: 290vh;
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -138,13 +137,16 @@
         margin: 10px;
     }
     .actor{
-        width: 80%;
+        width: 71%;
+        max-width: 80%;
+        min-width: 70%;
         height: 60%;
         margin: 5px;
         transition: margin 0.8s;
     }
     .actor>picture>img{
-        width: 260px;
+        max-width: 300px;
+        min-width: 260px;
     }
     .actor:hover{
         margin: 15px 0px 5px 15px;
@@ -158,14 +160,21 @@
     /*===============MANCHETE===============*/
 
     article#manchete{
-        height: 280vh;
+        max-height: 170vh;
+        min-height: 160vh;
     }
     div#serie{
         display: flex;
         justify-content: center;
         align-items: normal;
-        width: 95%;
-        height: 128vh;
+        width: 98%;
+        max-width: 100%;
+        min-width: 90%;
+        height: 150vh;
+    }
+    .Produtores{
+        display: flex;
+        height: 10%;
     }
     div#serie>p{
         font-size: 1.3em;
@@ -194,8 +203,9 @@
 
     }
     .ac{
-        font-size: 20px;
+        font-size: 24px;
         margin-left: 5px;
+        margin-top: 10px;
     }
     /*===============ATUAÇÂO===============*/
 

@@ -126,20 +126,14 @@ div#serie>picture{
 div#serie>picture>img{
     width: 750px;
 }
-
-div#criacao{
+.Produtores{
     display: flex;
     align-items: center;
-    padding: 10px;
+    height: 10vh;
 }
-div#criacao>ul>li{
-    display: inline;
-    margin-top: 200px;
+.test{
+    display: inline-flex;
 }
-div#criacao>h3{
-    padding-left: 37px;
-}
-
 .ac{
     font-size: 28px;
     font-weight: 500;
@@ -147,6 +141,7 @@ div#criacao>h3{
     color: black;
     border-left: 5px solid black;
     background-color: gold;
+    
     margin-left: 20px;
     padding: 12px;
     transition-timing-function: ease-in;
@@ -158,25 +153,6 @@ div#criacao>h3{
     border-left: 7px solid gold;
     background-color: black;
     color: gold;
-}
-
-div#categoria{
-    height: 35vh;
-    padding: 10px;
-}
-div#categoria>h3{
-    margin: 15px;   
-}
-div#categoria>ul{
-    list-style-type: none;
-    list-style-position: inside;
-    text-align: center;
-    margin-top: 20px;
-}
-div#categoria>ul>li{
-    display: inline;
-    padding: 12px;
-
 }
 
 /*====================Temporada==================== */
@@ -233,6 +209,7 @@ article#episodios{
     justify-content: center;
     align-items: center;
     height: 80vh;
+    width: 100%;
     background-color: #0f0f0f;  
 }
 .ep{
